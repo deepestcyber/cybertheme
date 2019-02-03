@@ -1,0 +1,7 @@
+base     deepcyber
+author   none
+email    none@none
+date     2018-11-03
+name     DeepCyber Template
+desc     Simple, minimal and responsive template.
+url      https://www.dokuwiki.org/template:deepcyber
