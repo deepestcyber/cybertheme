@@ -33,7 +33,18 @@ $showSidebar = page_findnearest($conf['sidebar']);
         <!-- ********** HEADER ********** -->
         <div id="dokuwiki__header">
             <div class="group">
-                <h1><?php tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?></h1>
+			<h1><?php
+				// get logo either out of the template images folder or data/media folder
+				$logoSize = array();
+				$logo = tpl_getMediaFile(array(':wiki:logo.svg', ':logo.svg', 'images/logo-top.svg'), false, $logoSize);
+
+				// display logo and wiki title in a link to the home page
+				tpl_link(
+					wl(),
+					'<img src="'.$logo.'" '.$logoSize[3].' alt="" />',
+					'accesskey="h" title="[H]"'
+				);
+				?></h1>
                 <div class="left">
                     <?php if ($showSidebar): ?>
                     <button class="btn_left" accesskey="s", title="[S]">Nav</button>
@@ -146,7 +157,16 @@ $showSidebar = page_findnearest($conf['sidebar']);
             </div></div><!-- /content -->
 
             <!-- ********** FOOTER ********** -->
-            <div id="dokuwiki__footer">
+			<div id="dokuwiki__footer">
+				<div id="ds__footer__logo"><?php
+				// get logo either out of the template images folder or data/media folder
+				$logoSize = array();
+				$logo = tpl_getMediaFile(array(':wiki:logo.svg', ':logo.svg', 'images/logo-bottom.svg'), false, $logoSize);
+
+				// display logo and wiki title in a link to the home page
+				echo '<img src="'.$logo.'" '.$logoSize[3].' alt="" />';
+				?></div>
+
                 <?php if($INFO['exists']): ?>
                 <div class="doc"><?php white_pageinfo() ?></div>
                 <?php endif ?>
