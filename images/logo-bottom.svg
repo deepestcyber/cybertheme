@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="327.60556"
-   height="81.102722"
-   viewBox="0 0 86.67897 21.458429"
+   height="55.472412"
+   viewBox="0 0 86.67897 14.677076"
    version="1.1"
    id="svg1956"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -20,14 +20,14 @@
      id="defs1950">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath1913">
+       id="clipPath1567">
       <rect
-         style="opacity:0.95;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:0.17716536;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:23.92440987;stroke-opacity:1"
-         id="rect1915"
+         y="265.22787"
+         x="46.744453"
+         height="106.28405"
          width="525"
-         height="130.3125"
-         x="46.74445"
-         y="241.19946" />
+         id="rect1569"
+         style="opacity:0.95;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:0.15999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:23.92440987;stroke-opacity:1" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -38,7 +38,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="48.954672"
+     inkscape:cx="-36.759614"
      inkscape:cy="178.16231"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -69,12 +69,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-11.84504,-192.53269)">
+     transform="translate(-11.84504,-199.31404)">
     <g
        transform="matrix(0.28222223,0,0,0.28222223,-29.623077,124.46084)"
        style="display:inline"
        id="g1867"
-       clip-path="url(#clipPath1913)">
+       clip-path="url(#clipPath1567)">
       <g
          transform="matrix(1.9999992,0,0,1.9999992,-81.857639,-389.91904)"
          id="g5433"

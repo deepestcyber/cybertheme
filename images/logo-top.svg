@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="86.67897mm"
-   height="47.81321mm"
-   viewBox="0 0 86.67897 47.81321"
+   height="55.825912mm"
+   viewBox="0 0 86.67897 55.825913"
    version="1.1"
    id="svg2617"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -20,14 +20,14 @@
      id="defs2611">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath2574">
+       id="clipPath902">
       <rect
-         style="opacity:0.95;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:0.2264155;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:23.92440987;stroke-opacity:1"
-         id="rect2576"
-         width="517.04291"
-         height="216.1093"
-         x="58.164566"
-         y="24.60652" />
+         style="opacity:0.95;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:23.92440987;stroke-opacity:1"
+         id="rect904"
+         width="107.44235"
+         height="75.370003"
+         x="42.426384"
+         y="59.269543" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-416.19723"
-     inkscape:cy="-83.930042"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="199.88319"
+     inkscape:cy="40.922272"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -68,14 +68,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-49.642659,-78.813633)">
+     transform="translate(-49.642658,-78.813632)">
     <g
-       transform="matrix(0.28222223,0,0,0.28222223,8.1745416,58.691488)"
-       style="display:inline"
-       id="g1867"
-       clip-path="url(#clipPath2574)">
+       id="g900"
+       clip-path="url(#clipPath902)">
       <g
-         transform="matrix(1.9999992,0,0,1.9999992,-81.857639,-389.91904)"
+         transform="matrix(0.56444423,0,0,0.56444423,-14.927504,-51.352333)"
          id="g5433"
          style="display:inline;fill:none;stroke:#000000;stroke-opacity:1">
         <g
@@ -90,6 +88,7 @@
         </g>
       </g>
       <g
+         transform="matrix(0.28222223,0,0,0.28222223,8.1745416,58.691488)"
          id="g1220">
         <g
            id="g5541"

@@ -46,9 +46,6 @@ $showSidebar = page_findnearest($conf['sidebar']);
 				);
 				?></h1>
                 <div class="left">
-                    <?php if ($showSidebar): ?>
-                    <button class="btn_left" accesskey="s", title="[S]">Nav</button>
-                    <?php endif; ?>
                 </div>
                 <div class="right">
                     <button class="btn_search">Search</button>
@@ -60,16 +57,21 @@ $showSidebar = page_findnearest($conf['sidebar']);
             </div>
         </div><!-- /header -->
 
-        <!-- ********** sidebar ********** -->
-        <div id="sidebar_wrapper">
-            <!-- ********** ASIDE ********** -->
+		<!-- ********** topbar ********** -->
+		<div class="wrapper" id="topbar_wrapper">
             <?php if ($showSidebar): ?>
-            <div id="dokuwiki__aside"  class="sidebar">
+            <div id="dokuwiki__topbar"  class="topbar">
                 <?php tpl_includeFile('sidebarheader.html') ?>
                 <?php tpl_include_page($conf['sidebar'], 1, 1) ?>
                 <?php tpl_includeFile('sidebarfooter.html') ?>
-            </div><!-- /dokuwiki__aside -->
+			</div><!-- /dokuwiki__topbar -->
             <?php endif; ?>
+		</div>
+		<hr/>
+
+        <!-- ********** sidebar ********** -->
+        <div id="sidebar_wrapper">
+            <!-- ********** ASIDE ********** -->
 
             <div id="dokuwiki__tools" class="sidebar left">
                 <!-- PAGE TOOLS -->
